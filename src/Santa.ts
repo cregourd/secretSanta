@@ -22,7 +22,7 @@ class Santa<P extends string> {
         this.text = settings.text
     }
 
-    affiche() {
+    show() {
         this.participants.forEach(participant => {
           console.log(participant.name + ' -> ' + participant.receiver)
         })
